@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taravel</title>
+    <!-- *Kopya lang to sa yt hehe basta para mapalabas yung map -->
+    <!-- * Bootstrap Start -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="terminalstyles.css">
+    <!-- * Bootstrap End -->
+
+
+    <!-- * CSS Start -->
+    <link rel="stylesheet" href="style.css">
+    <!-- * CSS End -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+
+<!-- * Origin Destination Start -->
+
+<body onload="initMap()">
+    <header>
+        <div class="navibar">
+            <a href="../index.html" class="nav-title">Taravel</a>
+
+        </div>
+    </header>
+    </div>
+
+    <!-- *Toggle Button for Side Navigation Bar -->
+    <nav class="sidenav" id="sidenav">
+        <div class="sidenav-header">
+            <div onclick="toggleSidebar()" class="toggle-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512" stroke="none">
+                    <path
+                        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                </svg>
+            </div>
+            <a href="../index.html" class="nav-title">Taravel</a>
+            <div style="font-size: 25px; margin-right: 30px;"><a href="index.html" class="dashboard">Dashboard</a></div>
+    </nav>
+    <div class="sidenav-content">
+        <h3>Terminal Routes and Information</h3>
+        <div class="form-group">
+            <input type="text" class="form-control" id='terminal' oninput="filterList()"
+                placeholder='Search for Terminal'></input>
+        </div>
+        <div class="terminalSection">
+            <div class="sidebar-top">
+                <label>Jeepney Terminals</label>
+            </div>
+
+            <ul id="jeepList">
+                <li><a class="custom-link" onclick="zoomToLocation(14.3002471, 120.9576322);">SM Dasmariñas</a>
+                </li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3014725, 120.9540889);">Robinsons
+                        Dasmariñas</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3195395, 120.9852583);">Paliparan (Near
+                        Mercury)</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.32080121, 120.9832877);">Paliparan
+                        (Kaagapay MTSC)</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3201796, 120.9791463);">Paliparan (Sakayan
+                        ng Bayan)</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3253837, 120.9407738);">Waltermart
+                        Dasmariñas</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3243836, 120.9679677);">DBB-C</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3405631, 120.9488987);">DBB-G</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3386277, 120.9570035);">DBB-1</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3839152, 120.9782028);">SM Molino</a></li>
+
+
+                <!-- Add more anchor tags with data-coordinates as needed -->
+
+                <!--   <li><a href="#" class="generateRoute" data-route="waltertodbbc">Generate Route 1</a></li> -->
+
+            </ul>
+        </div>
+        <div class="terminalSection">
+            <div class="sidebar-top">
+                <label>Tricycle Terminals</label>
+            </div>
+            <ul id="trikeList">
+                <li><a class="custom-link" onclick="zoomToLocation(14.2995, 120.9651);">St. Charbel Main</a>
+                </li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3365036, 120.9548081);">Sta. Lucia
+                        Main</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3427913, 120.9625165);">Saint Jude</a>
+                </li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3289, 120.9603);">SM Hypermarket Mall</a>
+                </li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.321141, 120.983922);">Paliparan Main</a>
+                </li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3200635, 120.9850733);">Jollibee
+                        Paliparan</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3200354, 120.9805721);">Paliparan Site</a>
+                </li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.2878091, 120.9880551);">Unitop
+                        Dasmariñas</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3199826, 120.9850935);">Mercury
+                        Paliparan</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3505024, 120.9387929 );">Salitran II
+                        Main</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.32414383, 120.9843569);">Main Gate
+                        (SMCHC)</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3339083, 120.9765434 );">Classic</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3304932, 120.9763219);">North 1</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.32592012, 120.9815496);">South 2
+                        Washington</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.32418931, 120.9781365);">Phase 1</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3272668, 120.9775827);">Chesterey</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3278912, 120.9759101);">Phase 3</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.32995115, 120.9776295);">Manukan</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.32823596, 120.9792419);">Phase 5</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.33307662, 120.9771715);">Heights</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.32902599, 120.9783953);">Bangkok</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.32620692, 120.9801602);">Lebanon (Central
+                        A)</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.350581, 120.9390242);">Salitran</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3535527, 120.9806048);">Salawag Main</a>
+                </li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.344899, 120.9817821);">Barangay Hall
+                        Salawag</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3506601, 120.9808103);">Savemore
+                        Salawag</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.358763, 120.981854);">The District
+                        Mall</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3178645, 120.9705817);">San Nicolas II
+                        Main</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3252507, 120.9406817);">Waltermart
+                        Dasmariñas</a></li>
+                <li><a class="custom-link" onclick="zoomToLocation(14.3001, 120.9577);">SM Dasmariñas</a></li>
+
+            </ul>
+        </div>
+        <div class="terminalSection">
+            <div class="sidebar-top">
+                <label>Jeepney Routes</label>
+            </div>
+            <ul id="jeepneyRoutes">
+                <li><a href="#" class="generateRoute" data-route="dasmabayantodbbc" onclick="zoomToRoute(0);">Dasma Bayan to DBB-C</a></li>
+                <li><a href="#" class="generateRoute" data-route="dasmabayantoplp" onclick="zoomToRoute(1);">Dasma Bayan to Paliparan</a></li>
+                <li><a href="#" class="generateRoute" data-route="dasmabayantosltrn" onclick="zoomToRoute(2);">Dasma Bayan to Salitran</a></li>
+                <li><a href="#" class="generateRoute" data-route="dasmabayantosmd" onclick="zoomToRoute(3);">Dasma Bayan to SM Dasmariñas</a></li>
+                <li><a href="#" class="generateRoute" data-route="dbb1todbbf" onclick="zoomToRoute(4);">DBB-1 to DBB-F</a></li>
+                <li><a href="#" class="generateRoute" data-route="dbb1tosltrn" onclick="zoomToRoute(5);">DBB-1 to Salitran</a></li>
+                <li><a href="#" class="generateRoute" data-route="dbbctobaclaran" onclick="zoomToRoute(6);">DBB-C to Baclaran</a></li>
+                <li><a href="#" class="generateRoute" data-route="dbbctodasmabayan" onclick="zoomToRoute(7);">DBB-C to Dasma Bayan</a></li>
+                <li><a href="#" class="generateRoute" data-route="dbbctodbb1" onclick="zoomToRoute(8);">DBB-C to DBB-1</a></li>
+                <li><a href="#" class="generateRoute" data-route="dbbctodbbg" onclick="zoomToRoute(9);">DBB-C to DBB-G</a></li>
+                <li><a href="#" class="generateRoute" data-route="dbbctoimus" onclick="zoomToRoute(10);">DBB-C to Imus</a></li>
+                <li><a href="#" class="generateRoute" data-route="dbbctosmd" onclick="zoomToRoute(11);">DBB-C to SM Dasmariñas</a></li>
+                <li><a href="#" class="generateRoute" data-route="dbbftodbb1" onclick="zoomToRoute(12);">DBB-F to DBB-1</a></li>
+                <li><a href="#" class="generateRoute" data-route="dbbftodbbg" onclick="zoomToRoute(13);">DBB-F to DBB-G</a></li>
+                <li><a href="#" class="generateRoute" data-route="dbbgtodbbf" onclick="zoomToRoute(14);">DBB-G to DBB-F</a></li>
+                <li><a href="#" class="generateRoute" data-route="dbbftodasmabayan" onclick="zoomToRoute(15);">DBB-F to Dasma Bayan</a></li>
+                <li><a href="#" class="generateRoute" data-route="imustodbb1" onclick="zoomToRoute(16);">Imus to DBB-1</a></li>
+                <li><a href="#" class="generateRoute" data-route="imustodbbc" onclick="zoomToRoute(17);">Imus to DBB-C</a></li>
+                <li><a href="#" class="generateRoute" data-route="imustosmmolino" onclick="zoomToRoute(18);">Imus to SM Molino</a></li>
+                <li><a href="#" class="generateRoute" data-route="plptobaclaran" onclick="zoomToRoute(19);">Paliparan to Baclaran</a></li>
+                <li><a href="#" class="generateRoute" data-route="plptodasmabayan" onclick="zoomToRoute(20);">Paliparan to Dasma Bayan</a></li>
+                <li><a href="#" class="generateRoute" data-route="plptorbnsn" onclick="zoomToRoute(21);">Paliparan to Robinson Dasmariñas</a></li>
+                <li><a href="#" class="generateRoute" data-route="plptosilang" onclick="zoomToRoute(22);">Paliparan to Silang</a></li>
+                <li><a href="#" class="generateRoute" data-route="plptosmmolino" onclick="zoomToRoute(23);">Paliparan to SM Molino</a></li>
+                <li><a href="#" class="generateRoute" data-route="rbnsntodbbc" onclick="zoomToRoute(24);">Robinsons Dasmariñas to DBB-C</a></li>
+                <li><a href="#" class="generateRoute" data-route="rbnsntoplp" onclick="zoomToRoute(25);">Robinsons Dasmariñas to Paliparan</a></li>
+                <li><a href="#" class="generateRoute" data-route="salawagtosltrn" onclick="zoomToRoute(26);">Salawag to Salitran</a></li>
+                <li><a href="#" class="generateRoute" data-route="sltrntodasmabayan" onclick="zoomToRoute(27);">Salitran to Dasma Bayan</a></li>
+                <li><a href="#" class="generateRoute" data-route="sltrntodbb1" onclick="zoomToRoute(28);">Salitran to DBB-1</a></li>
+                <li><a href="#" class="generateRoute" data-route="smdtodasmabayan" onclick="zoomToRoute(29);">SM Dasmariñas to Dasma Bayan</a></li>
+                <li><a href="#" class="generateRoute" data-route="smdtodbbc" onclick="zoomToRoute(30);">SM Dasmarinas to DBB-C</a></li>
+                <li><a href="#" class="generateRoute" data-route="smmolinotoplp" onclick="zoomToRoute(31);">SM Molino to Paliparan</a></li>
+                <li><a href="#" class="generateRoute" data-route="waltertoarea1" onclick="zoomToRoute(32);">Waltermart Dasmariñas to Area 1</a></li>
+                <li><a href="#" class="generateRoute" data-route="waltertodbb1" onclick="zoomToRoute(33);">Waltermart Dasmariñas to DBB-1</a></li>
+                <li><a href="#" class="generateRoute" data-route="waltertodbbc"  onclick="zoomToRoute(34);">Waltermart Dasmariñas to DBB-C</a></li>
+                <li><a href="#" class="generateRoute" data-route="waltertoplp" onclick="zoomToRoute(35);">Waltermart Dasmariñas to Paliparan</a></li>
+                <li><a href="#" class="generateRoute" data-route="waltertosmmolino" onclick="zoomToRoute(36);">Waltermart Dasmariñas to SM Molino</a></li>
+              
+           </ul>
+        </div>
+
+    </div>
+
+    <!-- Map Container -->
+    <div class="map-container">
+        <div id="map"></div>
+    </div>
+    </div>
+</body>
+<!-- * Origin Destination End -->
+
+
+<!-- * JS Start -->
+<script src="script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAe1t1N6hewaifr6Qeui5MLfqtknOukdA0&libraries=places">
+
+</script>
+<script src="terminals.js"></script>
+<!-- * JS End -->
+
+</html>

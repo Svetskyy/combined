@@ -1,0 +1,1333 @@
+{
+  "nodes": [
+    {
+      "id": "walter_to_dbbc_0",
+      "x": 14.324959,
+      "y": 120.941034,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_1",
+      "x": 14.325885,
+      "y": 120.94065,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_2",
+      "x": 14.326724,
+      "y": 120.940887,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_3",
+      "x": 14.32672,
+      "y": 120.941811,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_4",
+      "x": 14.326735,
+      "y": 120.942616,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_5",
+      "x": 14.326735,
+      "y": 120.942616,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_6",
+      "x": 14.326729,
+      "y": 120.943408,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_7",
+      "x": 14.326747,
+      "y": 120.944411,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_8",
+      "x": 14.326753,
+      "y": 120.945769,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_9",
+      "x": 14.32679,
+      "y": 120.947187,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_10",
+      "x": 14.326959,
+      "y": 120.948452,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_11",
+      "x": 14.327152,
+      "y": 120.949829,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_12",
+      "x": 14.327273,
+      "y": 120.950829,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_13",
+      "x": 14.327453,
+      "y": 120.952217,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_14",
+      "x": 14.327562,
+      "y": 120.953107,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_15",
+      "x": 14.32772,
+      "y": 120.954433,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_16",
+      "x": 14.32791,
+      "y": 120.955443,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_17",
+      "x": 14.328171,
+      "y": 120.956315,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_18",
+      "x": 14.328363,
+      "y": 120.956957,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_19",
+      "x": 14.328478,
+      "y": 120.958968,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_20",
+      "x": 14.327942,
+      "y": 120.959448,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_21",
+      "x": 14.327422,
+      "y": 120.959845,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_22",
+      "x": 14.326784,
+      "y": 120.960439,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_23",
+      "x": 14.32626,
+      "y": 120.960893,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_24",
+      "x": 14.325826,
+      "y": 120.961284,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_25",
+      "x": 14.325361,
+      "y": 120.961693,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_26",
+      "x": 14.325049,
+      "y": 120.961969,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_27",
+      "x": 14.324632,
+      "y": 120.962342,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_28",
+      "x": 14.324043,
+      "y": 120.962843,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_29",
+      "x": 14.323615,
+      "y": 120.963214,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_30",
+      "x": 14.323325,
+      "y": 120.963407,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_31",
+      "x": 14.322905,
+      "y": 120.963493,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_32",
+      "x": 14.322464,
+      "y": 120.963545,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_33",
+      "x": 14.322001,
+      "y": 120.963591,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_34",
+      "x": 14.321596,
+      "y": 120.963645,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_35",
+      "x": 14.320966,
+      "y": 120.963714,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_36",
+      "x": 14.320273,
+      "y": 120.963808,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_37",
+      "x": 14.319746,
+      "y": 120.96388,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_38",
+      "x": 14.319212,
+      "y": 120.963934,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_39",
+      "x": 14.318672,
+      "y": 120.963987,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_40",
+      "x": 14.318312,
+      "y": 120.964085,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_41",
+      "x": 14.317772,
+      "y": 120.964347,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_42",
+      "x": 14.317495,
+      "y": 120.964457,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_43",
+      "x": 14.317423,
+      "y": 120.96469,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_44",
+      "x": 14.317695,
+      "y": 120.965383,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_45",
+      "x": 14.317977,
+      "y": 120.966066,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_46",
+      "x": 14.318235,
+      "y": 120.966796,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_47",
+      "x": 14.318284,
+      "y": 120.967356,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_48",
+      "x": 14.318208839704235,
+      "y": 120.9682734199138,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_49",
+      "x": 14.318145816561339,
+      "y": 120.96923633294101,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_50",
+      "x": 14.31807174810569,
+      "y": 120.97033067421387,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_51",
+      "x": 14.317997679625687,
+      "y": 120.97095562891404,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_52",
+      "x": 14.318362823998514,
+      "y": 120.97110180929963,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_53",
+      "x": 14.318867008148898,
+      "y": 120.9715148695032,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_54",
+      "x": 14.319460852452472,
+      "y": 120.97209824995811,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_55",
+      "x": 14.320318480408863,
+      "y": 120.97237317639852,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_56",
+      "x": 14.32136322276294,
+      "y": 120.9722337015278,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_57",
+      "x": 14.322023331102406,
+      "y": 120.97180723028704,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_58",
+      "x": 14.32297450740183,
+      "y": 120.97070350115605,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_59",
+      "x": 14.324089405644024,
+      "y": 120.97011073295593,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "walter_to_dbbc_60",
+      "x": 14.324609169835442,
+      "y": 120.96849336093807,
+      "color": "#C8E45E",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_61",
+      "x": 14.319494102826846,
+      "y": 120.98128283273446,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_62",
+      "x": 14.319868340820415,
+      "y": 120.98151886711851,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_63",
+      "x": 14.32010743698963,
+      "y": 120.98195874937969,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_64",
+      "x": 14.320398510243177,
+      "y": 120.98257029301108,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_65",
+      "x": 14.320564837647144,
+      "y": 120.98310673479298,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_66",
+      "x": 14.320835119415701,
+      "y": 120.98379338027385,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_67",
+      "x": 14.320377719309006,
+      "y": 120.98474824664565,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_68",
+      "x": 14.319452520789046,
+      "y": 120.98517740007121,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_69",
+      "x": 14.318236242775527,
+      "y": 120.98572457068875,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_70",
+      "x": 14.317747650607012,
+      "y": 120.98589623205895,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_71",
+      "x": 14.316084350119963,
+      "y": 120.98623955484783,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_72",
+      "x": 14.315231903858118,
+      "y": 120.9864755892319,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_73",
+      "x": 14.313901249565893,
+      "y": 120.98720515005529,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_74",
+      "x": 14.312840878702792,
+      "y": 120.98788106677928,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_75",
+      "x": 14.310584975181506,
+      "y": 120.98925435774099,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_76",
+      "x": 14.309098353481959,
+      "y": 120.99053108928685,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_77",
+      "x": 14.308048356060596,
+      "y": 120.99134648079534,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_78",
+      "x": 14.306374587581614,
+      "y": 120.99223697422366,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_79",
+      "x": 14.305043880815898,
+      "y": 120.99250519511462,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_80",
+      "x": 14.30323493866848,
+      "y": 120.99244082210078,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_81",
+      "x": 14.301935402227874,
+      "y": 120.99231207610346,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_82",
+      "x": 14.29996009248405,
+      "y": 120.99168980362631,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_83",
+      "x": 14.29836943563901,
+      "y": 120.99121773484096,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_84",
+      "x": 14.296227749294898,
+      "y": 120.9905847335383,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_85",
+      "x": 14.295125708566324,
+      "y": 120.9902199531266,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_86",
+      "x": 14.293077561872433,
+      "y": 120.98961913830684,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_87",
+      "x": 14.291486856432158,
+      "y": 120.98914706953876,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_88",
+      "x": 14.289625820694486,
+      "y": 120.98859989891191,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_89",
+      "x": 14.288315808693575,
+      "y": 120.98819220315765,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_90",
+      "x": 14.287546433010402,
+      "y": 120.98822438966457,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_91",
+      "x": 14.286641893369328,
+      "y": 120.9904452586417,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_92",
+      "x": 14.285602188053316,
+      "y": 120.993095281311,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_93",
+      "x": 14.284739229064808,
+      "y": 120.99518740426046,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_94",
+      "x": 14.284739229064808,
+      "y": 120.99518740426046,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_95",
+      "x": 14.282805357101102,
+      "y": 120.99986517670197,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "paliparan_to_silang_96",
+      "x": 14.281578483480349,
+      "y": 121.00293362385123,
+      "color": "#17FE63",
+      "type": "jeep"
+    },
+    {
+      "id": "fatima_tricycle_terminal_97",
+      "x": 14.317986012975812,
+      "y": 120.9717157611871,
+      "color": "#590322",
+      "type": "tricycle"
+    },
+    {
+      "id": "fatima_tricycle_terminal_98",
+      "x": 14.317871661585086,
+      "y": 120.97316415399828,
+      "color": "#590322",
+      "type": "tricycle"
+    },
+    {
+      "id": "fatima_tricycle_terminal_99",
+      "x": 14.317975617397234,
+      "y": 120.97367913810892,
+      "color": "#590322",
+      "type": "tricycle"
+    },
+    {
+      "id": "fatima_tricycle_terminal_100",
+      "x": 14.318214715582526,
+      "y": 120.9746018179738,
+      "color": "#590322",
+      "type": "tricycle"
+    },
+    {
+      "id": "fatima_tricycle_terminal_101",
+      "x": 14.318089968735025,
+      "y": 120.97551376900306,
+      "color": "#590322",
+      "type": "tricycle"
+    },
+    {
+      "id": "fatima_tricycle_terminal_102",
+      "x": 14.318037990861443,
+      "y": 120.97632916051157,
+      "color": "#590322",
+      "type": "tricycle"
+    },
+    {
+      "id": "fatima_tricycle_terminal_103",
+      "x": 14.318360253483672,
+      "y": 120.97636134701848,
+      "color": "#590322",
+      "type": "tricycle"
+    },
+    {
+      "id": "fatima_tricycle_terminal_104",
+      "x": 14.319004777340227,
+      "y": 120.97629697400465,
+      "color": "#590322",
+      "type": "tricycle"
+    },
+    {
+      "id": "fatima_tricycle_terminal_105",
+      "x": 14.319264665468515,
+      "y": 120.9774020440754,
+      "color": "#590322",
+      "type": "tricycle"
+    },
+    {
+      "id": "fatima_tricycle_terminal_106",
+      "x": 14.31960771733711,
+      "y": 120.97826035092646,
+      "color": "#590322",
+      "type": "tricycle"
+    },
+    {
+      "id": "fatima_tricycle_terminal_107",
+      "x": 14.319919582217224,
+      "y": 120.97870023318765,
+      "color": "#590322",
+      "type": "tricycle"
+    },
+    {
+      "id": "fatima_tricycle_terminal_108",
+      "x": 14.320397774191783,
+      "y": 120.97976238791584,
+      "color": "#590322",
+      "type": "tricycle"
+    },
+    {
+      "id": "fatima_tricycle_terminal_109",
+      "x": 14.320283424029691,
+      "y": 120.98028810086213,
+      "color": "#590322",
+      "type": "tricycle"
+    },
+    {
+      "id": "fatima_tricycle_terminal_110",
+      "x": 14.31960771733711,
+      "y": 120.98091037332915,
+      "color": "#590322",
+      "type": "tricycle"
+    }
+  ],
+  "links": [
+    {
+      "source": "walter_to_dbbc_0",
+      "target": "walter_to_dbbc_1",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_1",
+      "target": "walter_to_dbbc_2",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_2",
+      "target": "walter_to_dbbc_3",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_3",
+      "target": "walter_to_dbbc_4",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_4",
+      "target": "walter_to_dbbc_5",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_5",
+      "target": "walter_to_dbbc_6",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_6",
+      "target": "walter_to_dbbc_7",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_7",
+      "target": "walter_to_dbbc_8",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_8",
+      "target": "walter_to_dbbc_9",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_9",
+      "target": "walter_to_dbbc_10",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_10",
+      "target": "walter_to_dbbc_11",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_11",
+      "target": "walter_to_dbbc_12",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_12",
+      "target": "walter_to_dbbc_13",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_13",
+      "target": "walter_to_dbbc_14",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_14",
+      "target": "walter_to_dbbc_15",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_15",
+      "target": "walter_to_dbbc_16",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_16",
+      "target": "walter_to_dbbc_17",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_17",
+      "target": "walter_to_dbbc_18",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_18",
+      "target": "walter_to_dbbc_19",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_19",
+      "target": "walter_to_dbbc_20",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_20",
+      "target": "walter_to_dbbc_21",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_21",
+      "target": "walter_to_dbbc_22",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_22",
+      "target": "walter_to_dbbc_23",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_23",
+      "target": "walter_to_dbbc_24",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_24",
+      "target": "walter_to_dbbc_25",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_25",
+      "target": "walter_to_dbbc_26",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_26",
+      "target": "walter_to_dbbc_27",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_27",
+      "target": "walter_to_dbbc_28",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_28",
+      "target": "walter_to_dbbc_29",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_29",
+      "target": "walter_to_dbbc_30",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_30",
+      "target": "walter_to_dbbc_31",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_31",
+      "target": "walter_to_dbbc_32",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_32",
+      "target": "walter_to_dbbc_33",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_33",
+      "target": "walter_to_dbbc_34",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_34",
+      "target": "walter_to_dbbc_35",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_35",
+      "target": "walter_to_dbbc_36",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_36",
+      "target": "walter_to_dbbc_37",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_37",
+      "target": "walter_to_dbbc_38",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_38",
+      "target": "walter_to_dbbc_39",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_39",
+      "target": "walter_to_dbbc_40",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_40",
+      "target": "walter_to_dbbc_41",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_41",
+      "target": "walter_to_dbbc_42",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_42",
+      "target": "walter_to_dbbc_43",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_43",
+      "target": "walter_to_dbbc_44",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_44",
+      "target": "walter_to_dbbc_45",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_45",
+      "target": "walter_to_dbbc_46",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_46",
+      "target": "walter_to_dbbc_47",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_47",
+      "target": "walter_to_dbbc_48",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_48",
+      "target": "walter_to_dbbc_49",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_49",
+      "target": "walter_to_dbbc_50",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_50",
+      "target": "walter_to_dbbc_51",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_51",
+      "target": "walter_to_dbbc_52",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_51",
+      "target": "fatima_tricycle_terminal_97",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_52",
+      "target": "walter_to_dbbc_53",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_53",
+      "target": "walter_to_dbbc_54",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_54",
+      "target": "walter_to_dbbc_55",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_55",
+      "target": "walter_to_dbbc_56",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_56",
+      "target": "walter_to_dbbc_57",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_57",
+      "target": "walter_to_dbbc_58",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_58",
+      "target": "walter_to_dbbc_59",
+      "weight": 1
+    },
+    {
+      "source": "walter_to_dbbc_59",
+      "target": "walter_to_dbbc_60",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_61",
+      "target": "paliparan_to_silang_62",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_62",
+      "target": "paliparan_to_silang_63",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_63",
+      "target": "paliparan_to_silang_64",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_64",
+      "target": "paliparan_to_silang_65",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_65",
+      "target": "paliparan_to_silang_66",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_66",
+      "target": "paliparan_to_silang_67",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_67",
+      "target": "paliparan_to_silang_68",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_68",
+      "target": "paliparan_to_silang_69",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_69",
+      "target": "paliparan_to_silang_70",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_70",
+      "target": "paliparan_to_silang_71",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_71",
+      "target": "paliparan_to_silang_72",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_72",
+      "target": "paliparan_to_silang_73",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_73",
+      "target": "paliparan_to_silang_74",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_74",
+      "target": "paliparan_to_silang_75",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_75",
+      "target": "paliparan_to_silang_76",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_76",
+      "target": "paliparan_to_silang_77",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_77",
+      "target": "paliparan_to_silang_78",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_78",
+      "target": "paliparan_to_silang_79",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_79",
+      "target": "paliparan_to_silang_80",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_80",
+      "target": "paliparan_to_silang_81",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_81",
+      "target": "paliparan_to_silang_82",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_82",
+      "target": "paliparan_to_silang_83",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_83",
+      "target": "paliparan_to_silang_84",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_84",
+      "target": "paliparan_to_silang_85",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_85",
+      "target": "paliparan_to_silang_86",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_86",
+      "target": "paliparan_to_silang_87",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_87",
+      "target": "paliparan_to_silang_88",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_88",
+      "target": "paliparan_to_silang_89",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_89",
+      "target": "paliparan_to_silang_90",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_90",
+      "target": "paliparan_to_silang_91",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_91",
+      "target": "paliparan_to_silang_92",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_92",
+      "target": "paliparan_to_silang_93",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_93",
+      "target": "paliparan_to_silang_94",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_94",
+      "target": "paliparan_to_silang_95",
+      "weight": 1
+    },
+    {
+      "source": "paliparan_to_silang_95",
+      "target": "paliparan_to_silang_96",
+      "weight": 1
+    },
+    {
+      "source": "fatima_tricycle_terminal_97",
+      "target": "fatima_tricycle_terminal_98",
+      "weight": 1
+    },
+    {
+      "source": "fatima_tricycle_terminal_98",
+      "target": "fatima_tricycle_terminal_99",
+      "weight": 1
+    },
+    {
+      "source": "fatima_tricycle_terminal_99",
+      "target": "fatima_tricycle_terminal_100",
+      "weight": 1
+    },
+    {
+      "source": "fatima_tricycle_terminal_100",
+      "target": "fatima_tricycle_terminal_101",
+      "weight": 1
+    },
+    {
+      "source": "fatima_tricycle_terminal_101",
+      "target": "fatima_tricycle_terminal_102",
+      "weight": 1
+    },
+    {
+      "source": "fatima_tricycle_terminal_102",
+      "target": "fatima_tricycle_terminal_103",
+      "weight": 1
+    },
+    {
+      "source": "fatima_tricycle_terminal_103",
+      "target": "fatima_tricycle_terminal_104",
+      "weight": 1
+    },
+    {
+      "source": "fatima_tricycle_terminal_104",
+      "target": "fatima_tricycle_terminal_105",
+      "weight": 1
+    },
+    {
+      "source": "fatima_tricycle_terminal_105",
+      "target": "fatima_tricycle_terminal_106",
+      "weight": 1
+    },
+    {
+      "source": "fatima_tricycle_terminal_106",
+      "target": "fatima_tricycle_terminal_107",
+      "weight": 1
+    },
+    {
+      "source": "fatima_tricycle_terminal_107",
+      "target": "fatima_tricycle_terminal_108",
+      "weight": 1
+    },
+    {
+      "source": "fatima_tricycle_terminal_108",
+      "target": "fatima_tricycle_terminal_109",
+      "weight": 1
+    },
+    {
+      "source": "fatima_tricycle_terminal_109",
+      "target": "fatima_tricycle_terminal_110",
+      "weight": 1
+    },
+    {
+      "source": "fatima_tricycle_terminal_110",
+      "target": "paliparan_to_silang_61",
+      "weight": 1
+    }
+  ]
+}

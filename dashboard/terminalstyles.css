@@ -1,0 +1,38 @@
+
+#custom-body {
+    background: linear-gradient(to bottom, #ffd143 15%, #ffffff 2%);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-color: black;
+    border-radius: 5px;  
+    font-size: 16px;
+    height: 320px;
+    width: 400px;
+    margin: 0;
+}
+
+#custom-body1 {
+    background: linear-gradient(to bottom, #ffd143 15%, #ffffff 2%);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-color: black;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 310px;
+    width: 400px;
+    margin: 0;
+}
+#custom-heading {
+    border-radius: 5px;
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+ul {
+    list-style-type: square;
+}
+ .custom-link {
+            color: black;
+        }

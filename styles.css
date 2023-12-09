@@ -1,0 +1,364 @@
+body {
+  top: 0;
+  margin: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-size: 1.5rem !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.get-direction {
+  background-color: #ffd143;
+  color: white;
+  border: #ffd143;
+  border-radius: 15px;
+  padding: 15px 15px;
+  margin-bottom: 20px;
+}
+
+#map {
+  height: calc(100vh - 70px);
+  width: 100%;
+  z-index: 999999;
+}
+
+#distanceResult {
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.navibar,
+.sidenav-header {
+  width: 100%;
+  height: 70px;
+  background-color: #ffd143;
+  color: white;
+  position: fixed;
+  z-index: 999;
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-title {
+  padding-right: 20px;
+  font-size: 3rem;
+  margin-left: 3rem;
+}
+.toggle-button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  z-index: 9999;
+  color: white;
+  transform: scale(1.4);
+  fill: white;
+  stroke: none;
+  margin-left: 20px;
+}
+.toggle-button svg {
+  border: none;
+}
+
+/* *Side Navbar Start */
+.sidenav {
+  width: 400px;
+  top: 0;
+  left: -400px;
+  transition: 0.3s;
+  /* Remove overflow-y: auto; from here */
+}
+
+.sidenav-content {
+  padding: 20px;
+  width: 400px !important;
+  margin-top: 100px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+.sidenav-content > * {
+  width: 100% !important;
+}
+
+/* Rest of your CSS styles... */
+
+
+.hover-shadow {
+  transition: transform 0.2s, box-shadow 0.2s ease-in-out !important;
+}
+
+.hover-shadow:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.map-container {
+  margin-left: 0;
+  transition: margin-left 0.3s;
+  margin-top: 70px;
+  z-index: 999999;
+}
+
+.get-direction {
+  background-color: transparent;
+  color: #262627;
+  border: solid 2px #ffd143;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.button-on {
+  background-color: #ffd143 !important;
+  color: #262627 !important;
+  font-weight: bold;
+}
+
+.button-off {
+  background-color: transparent !important;
+  color: #262627 !important;
+  font-weight: normal;
+}
+
+.flex-grow-equal {
+  flex-grow: 1;
+}
+
+.get-direction:hover {
+  background-color: #ffd143;
+}
+/* *Side Navbar End */
+
+#where-text {
+  color: #818181;
+}
+
+.sidebar-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+svg {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.route-box {
+  padding: 10px;
+  border: 1px solid gray;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.route-box:hover {
+  background-color: #e0e0e0;
+}
+
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 9999999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-container {
+  width: 400px;
+  height: 250px;
+  border-radius: 25px;
+  background-color: white;
+  z-index: 9999999;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.myText {
+  margin-top: 20px;
+  color: black;
+  font-size: 2rem;
+}
+
+button {
+  font-size: 1.5rem !important;
+}
+
+input {
+  font-size: 1.5rem !important;
+}
+
+#routes-container {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.instruction-style {
+  margin-bottom: 8px;
+  padding: 10px;
+  border: 2px solid #262627;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+#instructionsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  overflow-y: auto;
+}
+
+#routes-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+}
+
+#routeDetailsContainer {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+  margin-top: 15px;
+}
+
+#routeDetailsContainer > div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#routeDetailsContainer > div > h2:first-child {
+  display: inline;
+  margin-right: 20px;
+}
+
+#routeDetailsContainer > div > h2:last-child {
+  display: inline;
+  padding-right: 15px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.instructionStyle {
+  margin-bottom: 15px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1.2fr;
+  align-items: flex-start;
+}
+
+.subDivStyle {
+  text-align: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 12px; /* Adjust font size as needed */
+  display: flex;
+  flex-direction: column;
+}
+
+.iconStyle {
+  max-width: 40px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nameStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.borderStandard {
+  border-right: 1px solid rgb(71, 71, 71);
+  height: 40px;
+  margin-top: auto;
+}
+
+.nameTopStyle {
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.signBoardStyle {
+  padding: 5px;
+  text-align: center;
+}
+
+.costStyle {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+.distanceStyle {
+  text-align: center;
+}
+
+
+.margin-bottom-10 {
+  margin-bottom: 10px !important;
+}
+
+a.dashboard {
+  text-decoration: none; /* Remove underline */
+  color: white; /* Set text color to white */
+  display: inline-block;
+}
+
+a.dashboard:hover{
+  color:#EDEADE;
+}
+
+.regButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cancelButton{
+  text-decoration: none; /* Remove underline */
+  color: white; /* Set text color to white */
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #d22b2b;
+  border-radius: 10px;
+  padding: 10px;
+  border:#d22b2b;
+}
+
+#cancelButton:hover{
+  color:rgb(187, 181, 181);
+  transition: color 0.3s ease;
+}
