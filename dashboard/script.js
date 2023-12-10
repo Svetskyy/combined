@@ -17,7 +17,6 @@ function closeAllInfoWindows() {
 
 // *Default map
 function initMap() {
-    closeSidebar()
     const myLatLng = { lat: 14.340954012829117, lng: 120.98237542871796 };
     map = new google.maps.Map(document.getElementById('map'), {
         zoom: 13,

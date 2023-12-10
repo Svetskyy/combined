@@ -379,6 +379,7 @@ function evaluate(individual, type) {
 }
 
 async function runGeneticAlgorithm() {
+    
   if (!sourceCoordinates || !destCoordinates) {
     alert('Please enter both starting point and destination.');
     console.log("source/destination coordinates are null");
@@ -501,6 +502,7 @@ async function runGeneticAlgorithm() {
 }
 
 async function regenerateAlgo() {
+  closeModal()
   try {
     // Show loading overlay
     toggleLoading(true);
@@ -538,6 +540,27 @@ async function regenerateAlgo() {
     // Handle error (e.g., display an error message)
   }
 }
+
+function checkSourceAndDest() {
+  var sourceValue = document.getElementById('source').value;
+    var destValue = document.getElementById('dest').value;
+
+    // Check if source and destination are the same
+    if (sourceValue === destValue) {
+      alert("Start Location and Destination cannot be the same");
+    } else {
+      runGeneticAlgorithm();
+    }
+}
+
+function confirmRegenerate() {
+  var userConfirmed = confirm("Are you sure you want to regenerate route? This might take a while.");
+
+  if (userConfirmed) {
+    regenerateAlgo();
+  }
+}
+
 
 function updateRouteDetails(type) {
   if (

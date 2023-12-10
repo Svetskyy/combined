@@ -18,8 +18,6 @@ window.initMap = initMap;
 let routeColors = {};
 var markers = {};
 
-closeSidebar()
-
 function getCurrentLocation() {
   if (navigator.geolocation) {
     // Ask for permission before getting the current location
@@ -278,8 +276,8 @@ function routeTemplate1() {
   };
 
   runGeneticAlgorithm();
-  document.getElementById('source').value = '';
-  document.getElementById('dest').value = '';
+  document.getElementById('source').value = "Barzaga compound Dasmariñas, Cavite, Philippines";
+  document.getElementById('dest').value = 'Coco Valley Richnez Waterpark, Molino - Paliparan Road, Dasmariñas, Cavite, Philippines';
 }
 
 function routeTemplate2() {
@@ -287,16 +285,16 @@ function routeTemplate2() {
   destCoordinates = { lat: 14.2990227, lng: 120.9732917 };
 
   runGeneticAlgorithm();
-  document.getElementById('source').value = '';
-  document.getElementById('dest').value = '';
+  document.getElementById('source').value = "The Orchard Golf and Country Club";
+  document.getElementById('dest').value = "Manila Memorial Park Dasmariñas, Dasmariñas, Cavite, Philippines";
 }
 function routeTemplate3() {
   sourceCoordinates = { lat: 14.316076, lng: 120.9736502 };
   destCoordinates = { lat: 14.3450539, lng: 120.9661019 };
 
   runGeneticAlgorithm();
-  document.getElementById('source').value = '';
-  document.getElementById('dest').value = '';
+  document.getElementById('source').value = 'Dexterville Royale, Dasmariñas, Cavite, Philippines';
+  document.getElementById('dest').value = 'Technological University of the Philippines – Cavite';
 }
 
 function generateRouteInstructions(routeData) {

@@ -73,12 +73,12 @@
         </div>
       </div>
       <div class="form-group">
-        <input type="text" class="form-control" placeholder="Starting Point" id="source" required/>
+        <input type="text" class="form-control" placeholder="Starting Point" id="source" required />
       </div>
       <div class="form-group">
-        <input type="text" class="form-control" placeholder="Destination" id="dest" required/>
+        <input type="text" class="form-control" placeholder="Destination" id="dest" required />
       </div>
-      <button onclick="runGeneticAlgorithm()" class="get-direction button-on hover-shadow">
+      <button onclick="checkSourceAndDest()" class="get-direction button-on hover-shadow">
         Calculate Route
       </button>
 
@@ -101,7 +101,7 @@
           <h2 id="totalTime"></h2>
         </div>
         <p style="display: flex; justify-content: center; margin-bottom:-4px">Not satisfied with the given route?</p>
-        <button onclick="regenerateAlgo()" class="get-direction button-on hover-shadow">
+        <button onclick="confirmRegenerate()" class="get-direction button-on hover-shadow">
           Regenerate Route
         </button>
       </div>
